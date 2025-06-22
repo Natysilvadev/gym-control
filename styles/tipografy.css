@@ -31,3 +31,7 @@
     font-family: var(--body-text);
     font-size: 4rem;
 }
+
+carousel-slide::before{
+    
+}
