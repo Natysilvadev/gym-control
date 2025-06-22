@@ -1,9 +1,40 @@
+/* cores */
+
 :root {
+
   --gr: linear-gradient(#fffff);
 
   --w: #ffffff;
   --b: #232323;
-  --lime: #ebebeb;
+  --lime: #E2F163;
   --p: #896CFE;
   --lp: #B3A0FF;
+
 }
+
+.w{
+  color: var(--w);
+}
+
+.b{
+  color: var(--b)
+}
+
+.p{
+  color: var(--p);
+}
+
+.lp{
+  color: var(--lp);
+}
+
+.lime{
+  color: var(--lime);
+}
+
+
+/* escopos */
+
+.blk{
+    display: inline-block;
+  }

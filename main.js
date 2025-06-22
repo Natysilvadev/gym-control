@@ -1,3 +1,5 @@
+// splash
+
 setTimeout(() => {
   const splash = document.getElementById('splash');
   splash.classList.add('fade-out');
@@ -7,3 +9,5 @@ setTimeout(() => {
     document.getElementById('conteudo-principal').style.display = 'block';
   }, 500); // tempo da transição
 }, 3000); // tempo da splash
+
+
