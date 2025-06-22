@@ -33,6 +33,7 @@
 
     #conteudo-principal {
       display: none;
+      visibility: hidden;
       padding: 20px;
     }
 

@@ -16,11 +16,14 @@
     flex-direction: column;
     text-align: center;
     opacity: 0;
+    visibility: hidden;
     transition: opacity 1s ease-in-out;
 }
 
 .carousel-slide.active {
     opacity: 1;
+    visibility:visible;
+    /* pointer-events: auto; */
 }
 
 .slide-content {
@@ -51,12 +54,11 @@ button {
     background-color: rgba(137, 108, 254, 0.6);
     font-weight:600;
     font-size: 0.9rem;
-    cursor: pointer;
    
 }
 
 button:hover {
-    background-color: red;
+    background-color: rgb(179, 160, 255, 0.5);
 }
 
 
@@ -83,9 +85,11 @@ button:hover {
     background-position: center;
 }
 
-/* .carousel-indicators {
+.carousel-indicators {
     position: absolute;
-    bottom: 30px;
+    bottom: 30%;
+    transform: translateX(-30%);
+    justify-content: center;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -94,15 +98,15 @@ button:hover {
 }
 
 .indicator {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
+    width: 20px;
+    height: 5px;
+    border-radius: 5px;
     background-color: rgba(255,255,255,0.5);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .indicator.active {
-    background-color: white;
+    background-color: var(--lp);
     transform: scale(1.2);
-} */
+}
